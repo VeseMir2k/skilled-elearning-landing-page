@@ -2,7 +2,7 @@ import './App.css';
 import TopBar from './components/topBar';
 
 const App = () => (
-  <div className="p-[16px]">
+  <div className="font-plusJakartaSans p-[16px]">
     <TopBar />
   </div>
 );
