@@ -1,9 +1,9 @@
 import Button from '../button';
-import Logo from './Logo';
+import TopBarLogo from './TopBarLogo';
 
 const TopBar = () => (
   <div className="flex items-center justify-between">
-    <Logo />
+    <TopBarLogo />
     <Button />
   </div>
 );
