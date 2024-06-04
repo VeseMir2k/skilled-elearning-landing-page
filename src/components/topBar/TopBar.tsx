@@ -4,7 +4,7 @@ import TopBarLogo from './TopBarLogo';
 const TopBar = () => (
   <div className="flex items-center justify-between">
     <TopBarLogo />
-    <Button />
+    <Button color="navyBlue" size="normal" />
   </div>
 );
 
