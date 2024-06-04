@@ -1,4 +1,10 @@
 import './App.css';
+import TopBar from './components/topBar';
 
-const App = () => <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+const App = () => (
+  <div className="p-[16px]">
+    <TopBar />
+  </div>
+);
+
 export default App;
