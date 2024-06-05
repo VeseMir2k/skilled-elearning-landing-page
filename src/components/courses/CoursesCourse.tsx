@@ -1,4 +1,4 @@
-const Course = ({ name, description, icon }: { name: string; description: string; icon: string }) => (
+const CoursesCourse = ({ name, description, icon }: { name: string; description: string; icon: string }) => (
   <div className="relative rounded-[10px] bg-white px-[28px]">
     <img className="absolute top-[-28px]" src={icon} alt="animation" />
     <h4 className="text-navyBlue mt-[56px] text-[20px] font-extrabold">{name}</h4>
@@ -7,4 +7,4 @@ const Course = ({ name, description, icon }: { name: string; description: string
   </div>
 );
 
-export default Course;
+export default CoursesCourse;

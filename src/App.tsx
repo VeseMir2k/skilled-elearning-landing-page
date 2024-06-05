@@ -4,7 +4,7 @@ import Header from './components/header';
 import TopBar from './components/topBar';
 
 const App = () => (
-  <div className="font-plusJakartaSans p-[16px]">
+  <div className="font-plusJakartaSans">
     <TopBar />
     <Header />
     <Courses />
