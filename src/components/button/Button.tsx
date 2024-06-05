@@ -1,8 +1,8 @@
 const Button = ({ color, size }: { color: string; size: string }) => {
   const colorClass = {
-    navyBlue: 'bg-navyBlue',
-    gradient_1: 'bg-gradient_1',
-    gradient_2: 'bg-gradient_2',
+    navyBlue: 'bg-navyBlue hover:bg-indigo',
+    gradient_1: 'bg-gradient_1 hover:bg-gradientHover_1 bg-white',
+    gradient_2: 'bg-gradient_2 hover:bg-gradientHover_2 bg-white',
   }[color];
 
   const sizeClass = {
