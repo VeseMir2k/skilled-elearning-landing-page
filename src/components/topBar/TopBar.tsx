@@ -1,9 +1,9 @@
 import Button from '../button';
-import TopBarLogo from './TopBarLogo';
+import Logo from '../logo';
 
 const TopBar = () => (
   <div className="flex items-center justify-between p-[16px] pb-0">
-    <TopBarLogo />
+    <Logo variant="dark" />
     <Button color="navyBlue" size="normal" />
   </div>
 );
