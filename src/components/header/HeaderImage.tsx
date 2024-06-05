@@ -6,7 +6,7 @@ const HeaderImage = () => (
   <picture>
     <source media="(min-width:1024px)" srcSet={headerImgDesktop} />
     <source media="(min-width:768px)" srcSet={headerImgTablet} />
-    <img className="mt-[66px] w-full scale-125" src={headerImgMobile} alt="header image hero" />
+    <img className="mb-[26px] mt-[66px] w-full scale-125" src={headerImgMobile} alt="header image hero" />
   </picture>
 );
 
