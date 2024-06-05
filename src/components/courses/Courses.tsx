@@ -37,7 +37,7 @@ const Courses = () => {
   ));
 
   return (
-    <div className="bg-gradient_3 flex flex-col gap-[44px] px-[16px]">
+    <div className="bg-gradient_3 flex flex-col gap-[44px] px-[16px] pb-[80px]">
       <h3 className="bg-gradient_1 text-headingS rounded-[10px] px-[28px] pb-[32px] pt-[24px] text-white">
         Check out our most popular courses!
       </h3>
