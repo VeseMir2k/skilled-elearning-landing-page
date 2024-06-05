@@ -18,6 +18,7 @@ export default {
       gradientHover_1: 'linear-gradient(180deg, rgba(255,111,72,.5) 0%, rgba(240,42,166,.5) 100%)',
       gradient_2: 'linear-gradient(180deg, rgba(72,81,255,1) 0%, rgba(240,42,166,1) 100%)',
       gradientHover_2: 'linear-gradient(180deg, rgba(72,81,255,.5) 0%, rgba(240,42,166,.5) 100%)',
+      gradient_3: 'linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,241,255,1) 100%)',
     }),
     colors: {
       white: 'rgba(256, 256, 256, 1)',
