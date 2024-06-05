@@ -1,7 +1,7 @@
 import Course from './Course';
 
 const Courses = () => {
-  const courses = [
+  const coursesData = [
     {
       name: 'Animation',
       description:
@@ -27,12 +27,14 @@ const Courses = () => {
     },
   ];
 
+  const courses = coursesData.map(() => <Course />);
+
   return (
     <div className="bg-gradient_3 flex flex-col gap-[44px]">
       <h3 className="bg-gradient_1 text-headingS rounded-[10px] px-[28px] pb-[32px] pt-[24px] text-white">
         Check out our most popular courses!
       </h3>
-      <Course />
+      {courses}
     </div>
   );
 };
