@@ -28,7 +28,11 @@ export default {
       hotPink: 'rgba(247, 71, 128, 1)',
       lightPink: 'rgba(255, 167, 195, 1)',
     },
-    extend: {},
+    extend: {
+      flexBasis: {
+        '1/2-minus-5': 'calc(50% - 5px)',
+      },
+    },
   },
   plugins: [],
 };
