@@ -37,8 +37,8 @@ const Courses = () => {
   ));
 
   return (
-    <div className="flex flex-col gap-[44px] bg-gradient_3 px-[16px] pb-[80px] md:flex-row md:flex-wrap md:gap-0">
-      <h3 className="rounded-[10px] bg-gradient_1 px-[28px] pb-[32px] pt-[24px] text-headingS text-white md:mb-[56px] md:basis-1/2-minus-5 md:px-[32px] md:pt-[56px] lg:pt-[64px] lg:text-headingM">
+    <div className="courses flex flex-col gap-[44px] bg-gradient_3 px-[16px] pb-[80px] md:flex-row md:flex-wrap md:gap-0">
+      <h3 className="lg:basis-1/3-minus-20 rounded-[10px] bg-gradient_1 px-[28px] pb-[32px] pt-[24px] text-headingS text-white md:mb-[56px] md:basis-1/2-minus-5 md:px-[32px] md:pt-[56px] lg:mb-[84px] lg:pt-[64px] lg:text-headingM">
         Check out our most popular courses!
       </h3>
       {courses}
