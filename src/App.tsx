@@ -5,7 +5,7 @@ import Header from './components/header';
 import TopBar from './components/topBar';
 
 const App = () => (
-  <div className="font-plusJakartaSans overflow-hidden">
+  <div className="overflow-hidden font-plusJakartaSans">
     <TopBar />
     <Header />
     <Courses />
