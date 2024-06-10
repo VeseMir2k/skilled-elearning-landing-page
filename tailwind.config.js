@@ -31,6 +31,7 @@ export default {
     extend: {
       flexBasis: {
         '1/2-minus-5': 'calc(50% - 5px)',
+        '1/3-minus-15': 'calc(33.3333% - 15px)',
       },
     },
   },
